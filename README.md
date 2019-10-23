@@ -13,7 +13,7 @@ Sample constructicon entries:
         [992, None, 1, '<Adj>', '[Number]', (1, '[LargeNumber]', None)]
     ]
     
-Construction 992 states that, whenever a surface form that has the semantic tag [Number] is followed (at Position +1) by a surface form that has the semantic tag [LargeNumber], the two surface forms constitute a multiword expression that has the semantic tag [Number] and the syntactic category <Adj>. Sequences like beş milyon 'five million', 340 milyar '340 billion' would be identified as instances of this construction.
+Construction 992 states that, whenever a surface form that has the semantic tag [Number] is followed (at Position +1) by a surface form that has the semantic tag [LargeNumber], the two surface forms constitute a multiword expression that has the semantic tag [Number] and the syntactic category "adjective". Sequences like beş milyon 'five million', 340 milyar '340 billion' would be identified as instances of this construction.
 
 'her<Det:def>':
     [
