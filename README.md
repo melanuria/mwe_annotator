@@ -4,7 +4,7 @@ This is a proof-of-concept version of a multiword-expression identifier for Turk
 
 The identifier processes the Turkish sentences in data/sentences.txt (UTF-8) and marks any multiword expressions / constructions described in data/constructicon.txt (UTF-8). For faster processing, data/morphs.zip contains the morphological analyses of all tokens in sentences.txt. The Turkish morphological analyzer developed by Çağrı Çöltekin must be installed in the directory named TRmorph-master.
 
-The identifier processes the sentences token by token. Every token has three layers of representation: Surface layer, morphological layer, and semantic layer. A multiword expression is identified whenever a sequence of word-forms, lemmas or suffixes in a sentence matches all requirements of a construction described in the constructicon. Constructions can be described using the surface and/or morphology and/or semantics layers. Iterative identification has not been fully implemented yet.  
+The identifier processes the sentences token by token. Every token has three layers of representation: Surface layer, morphological layer, and semantic layer. A multiword expression is identified whenever a sequence of word-forms, lemmas or suffixes in a sentence matches all requirements of a construction described in the constructicon. Constructions can be described using the surface and/or morphology and/or semantics layers. Iterative identification and other basic features have not been fully implemented yet.  
 
 Sample constructicon entries:
 
