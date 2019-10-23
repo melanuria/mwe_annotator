@@ -1,6 +1,6 @@
 # mwe_identifier
 
-This is a proof-of-concept version of a multiword-expression identifier for Turkish, designed with a "Construction Grammar" framework in mind. For an early description of Construction Grammar, see Fried, M., & Östman, J. O. (2004). Construction Grammar: A thumbnail sketch. Construction Grammar in a cross-language perspective, 11-86.
+This is a proof-of-concept version of a multiword-expression identifier for Turkish, designed within a "Construction Grammar" framework. For an early description of Construction Grammar, see Fried, M., & Östman, J. O. (2004). Construction Grammar: A thumbnail sketch. Construction Grammar in a cross-language perspective, 11-86.
 
 The identifier processes the Turkish sentences in data/sentences.txt (UTF-8) and marks any multiword expressions / constructions described in data/constructicon.txt (UTF-8). For faster processing, data/morphs.zip contains the morphological analyses of all tokens in sentences.txt. The Turkish morphological analyzer developed by Çağrı Çöltekin must be installed in the directory named TRmorph-master.
 
