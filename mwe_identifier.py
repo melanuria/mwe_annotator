@@ -2,6 +2,8 @@
 __author__ = 'Orhan Bilgin'
 
 from subprocess import Popen,PIPE
+import zipfile
+from codecs import iterdecode
 
 def normalize(word): 
     word = word.replace('İ', 'i').lower().replace('â', 'a').replace('î', 'i').replace('.', '').replace(',', '').replace(';', '')
@@ -117,8 +119,11 @@ for key, cxs in constructicon.items():
 # Initialize morphological analyzer
 morphs = {}
 flookup = '/usr/bin/flookup -b -x TRmorph-master/trmorph.fst'
-with open('data/morphs.txt', 'r', encoding='utf-8') as morphfile:
-    for line in morphfile:
+
+zf = zipfile.ZipFile('data/morphs.zip', 'r')
+
+with zf.open('morphs.txt', 'r') as readFile:
+    for line in iterdecode(readFile, 'utf8'):
         linedata = line.strip().split('\t')
         try:
             morphs[linedata[0]] = eval(linedata[1])
