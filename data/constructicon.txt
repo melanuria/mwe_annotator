@@ -1,0 +1,730 @@
+{
+	'ihtiyat<N>': [
+        [991, None, 1, '<N>', '[AmountOfMoney]', (1, 'akçe<N>', '<p3')]
+    ],
+
+
+    'ulaş<V>': [
+        [993, None, 0, '<V>', None, (-1, None, '<dat>')]
+    ],
+
+
+    'kadar<Postp:adv:datC>': [
+        [994, None, 0, '<Adv>', None, (-1, None, '<dat>')]
+    ],
+
+
+    '[Number]': [
+        [992, None, 1, '<Adj>', '[Number]', (1, '[LargeNumber]', None)],
+        [996, None, 1, '<N>', '[AmountOfMoney]', (1, '[Currency]', None)]
+    ],
+
+
+    'tavsiye<N>': [
+        [995, None, 0, '<V>', None, [-2, None, '<vn:inf><N><p3s><acc>'], [-1, None, '<dat>'], (1, 'et<V>', None)]
+    ],
+
+
+    'her<Det:def>': [
+        [997, None, 1, '<Adv>', None, (1, 'zaman<N>', None )],
+        [998, None, 3, '<Adj>', None, (1, 'zaman<N>', '<ki><Adj><p2s><Prn><abl>'), (2, 'daha<Adv>', None), (3, None, '<Adj>')]
+    ],
+
+
+    'aynı<Det:def>': [
+        [1, None, 1, '<Adv>', None, (1, 'an<N>', '<loc>')],
+        [155, None, 1, '<Adv>', None, (1, 'zaman<N>', '<loc>')],
+        [156, None, 1, '<Adv>', None, (1, 'şekil<N>', '<loc>')]
+    ],
+
+    
+    'açıklama<N>': [
+        [2, None, 1, '<V>', None, (1, 'yap<V>', None)]
+    ],
+
+    
+    'alt<N><dat>': [
+        [3, None, None, '<Adv>', None, (-1, 'alt<Adj>', None)]
+    ],
+
+    
+    'araştırma<N>': [
+        [4, None, None, '<V>',  None, (1, 'yap<V>', None)]
+    ],
+
+    
+    'ardından<Adv>': [
+        [5, None, None, '<Adv>', None, (-1, None, '<gen>')]
+    ],
+
+    
+    'az<Det:indef>': [
+        [6, None, None, '<Adj>', None, (1, 'sayı<N>', '<loc>')]
+    ],
+
+    
+    'başka<Adj>': [
+        [7, None, None, '<N>', None, (1, None, '<pl>')]
+    ],
+
+    
+    'bazı<Det:indef>': [
+        [8, None, None, '<N>', None, (1, None, '<pl>')]
+    ],
+
+    
+    'belli<Adj>': [
+        [9, None, None, '<Adj>', None, (1, 'bir', None)]
+    ],
+
+    
+    'benzer<Adj>': [
+        [10, None, None, '<Adv>', None, (1, 'şekilde', None)]
+    ],
+
+    
+    'beraber<Postp:adv:insC>': [
+        [11, None, None, '<Adv>', None, (-1, None, '<ins>')],
+        [23, 11, None, '<Adv>', None, (-1, 'bununla', None)]
+    ],
+
+    
+    'bey<N>': [
+        [12, None, None, '<N>', None, (-1, '[FirstName]', None)]
+    ],
+
+    
+    'bile<Cnj:adv>': [
+        [13, None, None, '<?>', None, (-1, None, '<V><cond>')]
+    ],
+
+    
+    'bilgisayar<N>': [
+        [14, None, None, '<N>', None, (1, 'program<N>', '<p3')]
+    ],
+
+    
+    'bir<Det:indef>': [
+        [15, None, None, '<Adv>',None,  (1, 'ara<N>', '<loc>')],
+        [16, None, None, '<?>', None, (1, 'de<Cnj:coo:partial>', None)],
+        [17, None, None, '<Adj>', None, (1, 'hayli<Adv>', None)],
+        [18, None, None, '<Adv>', None, (1, 'bakım<N>', '<dat>')]
+    ],
+
+    
+    'bir<Det:indef><p3s><Prn>': [
+        [19, None, None, '<N>', None, [-3, 'en', None], (-2, '<Adj>', None), (-1, None, '<N><pl><abl>')]
+    ],
+
+    
+    'birlikte<Postp:adv:insC>': [
+        [20, None, None, '<Adv>', None, (-1, None, '<ins>')],
+        [21, None, None, '<Adv>', None, (-1, 'ile<Postp:adv:nomC>', None)],
+        [139, 20, None, '<Adv>', None, (-1, 'bu<Prn:dem>', '<ins>')]
+    ],
+
+    
+    'bu<Det:def>': [
+        [22, None, None, '<Adv>', None, (1, 'ara<N>', '<loc>')],
+        [157, None, None, '<Adv>', None, (1, 'şekil<N>', '<loc>')],
+        [158, None, None, '<Adv>', None, (1, 'durum<N>', '<loc>')],
+        [159, None, None, '<Adv>', None, (1, 'sebep<N>', '<ins>')],
+        [160, None, None, '<Adv>', None, (1, 'neden<N>', '<ins>')],
+        [161, None, None, '<Adv>', None, (1, 'saye<N>', '<loc>')],
+        [162, None, None, '<Adv>', None, (1, 'yüz<N>', '<abl>')],
+        [163, None, None, '<Adv>', None, (1, 'açı<N>', '<abl>')],
+        [164, None, None, '<Adv>', None, (1, 'bakım<N>', '<abl>')],
+        [165, None, None, '<Adv>', None, (1, 'amaç<N>', '<ins>')]
+    ],
+
+    
+    'cari<Adj>': [
+        [24, None, None, '<N>', None, (1, 'açık<N>', None)]
+    ],
+
+    
+    'çalışma<N>': [
+        [25, None, None, '<V>', None, (1, 'yap<V>', None)]
+    ],
+
+    
+    'çeşit<N><li><Adj>': [
+        [26, None, None, '<N>', None, (1, None, '<pl>')]
+    ],
+
+    
+    'çok<Det:indef>': [
+        [27, None, None, '<Adj>', None, (1, 'sayı<N>', '<loc>')],
+        [166, None, None, '<Adj>', None, (1, 'miktar<N>', '<loc>')]
+    ],
+
+    
+    'daha<Adv>': [
+        [28, None, None, '<Adj>', None, (1, 'çok<Adv>', None)],
+        [29, None, None, '<Adj>', None, (1, '<Adj>', None)]
+    ],
+
+    
+    'dar<Adj>': [
+        [30, None, None, '<N>', None, (1, 'boğaz<N>', None)]
+    ],
+
+    
+    'dava<N>': [
+        [31, None, None, '<V>', None, [-1, None, '<dat>'], (1, 'aç<V>', None)]
+    ],
+
+    
+    'değişik<Adj><lik><N>': [
+        [32, None, None, '<V>', None, [-1, None, '<loc>'], (1, 'yap<V>', None)]
+    ],
+
+    
+    'de<V><pass><V><part:fut><Adj>': [
+        [33, None, None, '<Adj>', None, (-1, 'yok<Exist:neg>', None), (1, 'kadar<Postp:adv:nomC>', None), (2, 'az<Adj>', None)]
+    ],
+
+    
+    'deyim<N>': [
+        [34, None, None, '<Adv>', None, (1, 'yerinde<Adj>', '<0><V><cpl:cond><3s>')]
+    ],
+
+    
+    'devam<N>': [
+        [35, None, None, '<V>', None, [-1, None, '<dat>'], (1, 'et<V>', None)]
+   	],
+
+    
+    'dip<N><dat>': [
+        [36, None, None, '<Adv>', None, (-1, 'dip<N>', None)]
+    ],
+
+    
+    'dikkat<N>': [
+        [37, None, None, '<V>', None, [-1, None, '<dat>'], (1, 'et<V>', None)],
+        [38, None, None, '<Adj>', None, (1, 'çek<V>', '<yici><Adj>')]
+    ],
+
+    
+    'dil<N><dat>': [
+        [39, None, None, '<V>', None, [-1, None, '<acc>'], (1, 'getir<V>', None)]
+    ],
+
+    
+    'dolayı<Postp:adv:ablC>': [
+        [40, None, None, '<Adv>', None, (-1, None, '<abl>')]
+    ],
+
+    
+    'döviz<N>': [
+        [41, None, None, '<N>', None, (1, 'piyasa<N>', '<p3')]
+    ],
+
+    
+    'en<Adv>': [
+        [42, 43, None, '<Adj>', None, (1, 'az<Adj>', None)],
+        [167, 43, None, '<Adj>', None, (1, 'çok<Adj>', None)],
+        [168, 43, None, '<Adj>', None, (1, 'fazla<Adj>', None)],
+        [43, None, None, '<Adj>', None, (1, '<Adj>', None)]
+    ],
+
+    
+    'farklı<Adj>': [
+        [44, None, None, '<Adj>', None, (-1, None, '<abl>')]
+    ],
+
+    
+    'finansman<N>': [
+        [45, None, None, '<N>', None, (-1, 'dış<Adj>', None)]
+    ],
+
+    
+    'fizibilite<N>': [
+        [46, None, None, '<N>', None, (1, 'çalışma<N>', '<p3')]
+    ],
+
+    
+    'gayret<N>': [
+        [47, None, None, '<V>', None, [-2, None, '<V><vn:inf><N>'], [-1, 'için<Postp:adv:nomC>', None], (1, 'sarfet<V>', None)],
+        [169, None, None, '<V>', None, [-2, None, '<V><vn:inf><N>'], [-1, 'için<Postp:adv:nomC>', None], (1, 'göster<V>', None)]
+    ],
+
+    
+    'geç<V><part:pres><Adj>': [
+        [48, None, None, '<Adv>', None, (1, 'gün<N>', None)],
+        [170, None, None, '<Adv>', None, (1, 'hafta<N>', None)],
+        [171, None, None, '<Adv>', None, (1, 'ay<N>', None)],
+        [172, None, None, '<Adv>', None, (1, 'yıl<N>', None)],
+        [173, None, None, '<Adv>', None, (1, 'sene<N>', None)]
+    ],
+
+    
+    'geç<V><part:past><Adj><p1p>': [
+        [49, None, None, '<Adv>', None, (1, 'gün<N>', None)],
+        [174, None, None, '<Adv>', None, (1, 'hafta<N>', None)],
+        [175, None, None, '<Adv>', None, (1, 'ay<N>', None)],
+        [176, None, None, '<Adv>', None, (1, 'yıl<N>', None)],
+        [177, None, None, '<Adv>', None, (1, 'sene<N>', None)]
+    ],
+
+    
+    'geç<V><cv:dikce><Adv>': [
+        [50, None, None, '<Adv>', None, (-1, 'gün<N>', None)],
+        [178, None, None, '<Adv>', None, (-1, 'zaman<N>', None)],
+        [179, None, None, '<Adv>', None, (-1, 'vakit<N>', None)]
+    ],
+
+    
+    'gibi<Postp:adj:nomC>': [
+        [51, None, None, '<Adj>', None, (-1, 'bu<Det:def>', None)],
+        [180, None, None, '<Adj>', None, (-1, 'bu<Prn:dem>', '<gen>')]
+    ],
+
+    
+    'giriş<N>': [
+        [52, None, None, '<V>', None, (1, 'yap<V>', None)]
+    ],
+
+    
+    'göre<Postp:adv:datC>': [
+        [53, 54, None, '<Adv>', None, (-1, 'durum<N>', '<dat>')],
+        [54, None, None, '<Adv>', None, (-1, None, '<dat>')]
+    ],
+
+    
+    'görev<N>': [
+        [55, None, None, '<V>', None, (1, 'yap<V>', None)]
+    ],
+
+    
+    'güncel<Adj><lik><N><p3s><acc>': [
+        [56, None, None, '<V>', None, (1, 'koru<V>, None')]
+    ],
+
+    
+    'güven<V>': [
+        [57, None, None, '<V>', None, (-1, None, '<dat>')]
+    ],
+
+    
+    'müktesep<Adj>': [
+        [58, None, None, '<N>', None, (1, 'hak<N>', None)]
+    ],
+
+    
+    'halinde<Postp:adv:nomC>': [
+        [59, None, None, '<Adv>', None, (-1, None, '<V><vn:inf><N><p3s>')]
+    ],
+
+    
+    'hastane<N><dat>': [
+        [60, None, None, '<V>', None, [-1, None, '<acc>'], (1, 'kaldır<V>', None)]
+    ],
+
+    
+    'hata<N>': [
+        [61, None, None, '<V>', None, (1, 'yap<V>', None)]
+    ],
+
+    
+    'hazır<Adj>': [
+        [62, None, None, '<V>', None, [-1, None, '<dat>'], (1, 'ol<V>', None)]
+    ],
+
+    
+    'hem<Cnj:coo>': [
+        [63, None, None, '<?>', None, (1, 'de<Cnj:adv>', None)]
+    ],
+
+    
+    'hep<Adv>': [
+        [64, None, None, '<Adv>', None, (1, 'birlikte<Adv>', None)],
+        [181, None, None, '<Adv>', None, (1, 'beraber<Adv>', None)]
+    ],
+
+    
+    'için<Postp:adv:nomC>': [
+        [69, None, None, '<Adv>', None, (-1, None, '<V><vn:inf><N>')],
+        [183, None, None, '<Adv>', None, (-1, None, '<V><vn:inf><N><p3s>')]
+    ],
+
+    
+    'ihtiyaç<N>': [
+        [70, None, None, '<V>', None, [-1, None, '<dat>'], (1, 'duy<V>', None)]
+    ],
+
+    
+    'ilişkin<Postp:adv:datC>': [
+        [71, None, None, '<Adj>', None, (-1, None, '<dat>')]
+    ],
+
+    
+    'insan<N>': [
+        [72, None, None, '<N>', None, (1, 'kaynak<N>', '<p3')]
+    ],
+
+    
+    'insan<N><lik><N>': [
+        [73, None, None, '<N>', None, (1, 'görev<N>', '<p3')]
+    ],
+
+    
+    'intihar<N>': [
+        [74, None, None, '<N>', None, (1, 'girişim<N>', '<p3')]
+    ],
+
+    
+    'iptal<N>': [
+        [75, None, None, '<V>', None, [-1, None, '<acc>'], (1, 'et<V>', None)]
+    ],
+
+    
+    'işbirliği<N>': [
+        [76, None, None, '<V>', None, [-1, None, '<ins>'], (1, 'yap<V>', None)]
+    ],
+
+    
+    'kala<Postp:adv:nomC>': [
+        [147, None, None, '<Adv>', None, (-1, '[Duration]', None)]
+    ],
+
+    
+    'katkı<N>': [
+        [78, None, None, '<V>', None, (1, 'sun<V>', None)]
+    ],
+
+    
+    'kendi': [
+        [146, None, None, '<Adv>', None, (1, 'kendi', None)]
+    ],
+
+    
+    'kendi<Prn:refl:3s><acc>': [
+        [142, None, None, '<V>', None, (1, 'kaybet<V>', None)],
+        [145, None, None, '<V>', None, (1, 'göster<V>', None)]
+    ],
+
+
+    'kendi<Prn:refl:3s><dat>': [
+        [143, None, None, '<V>', None, (1, 'gel<V>', None)]
+    ],
+
+
+    'kendi<Prn:refl:3s><abl>': [
+        [144, None, None, '<V>', None, (1, 'geç<V>', None)]
+    ],
+
+
+    'ki<Cnj:sub>': [
+        [79, None, None, '<Adv>', None, (-1, 'unut<V>', '<pass><V><neg><obl><3s><dir>')],
+        [185, None, None, '<Adv>', None, (-1, 'unut<V>', '<pass><V><neg><obl><3s>')],
+        [186, None, None, '<Adv>', None, (-1, 'kal<V>', '<past><3s>')],
+        [80, None, None, '<Adv>', None, (-2, 'ne<Adv>', None), (-1, 'yazık<N>', None)]
+    ],
+
+
+    'konuşma<N>': [
+        [81, None, None, '<V>', None, (1, 'yap<V>', None)]
+    ],
+
+
+    'masraf<N>': [
+        [82, None, None, '<N>', None, (-1, 'zaruri<Adj>', None)]
+    ],
+
+
+    'merak<N>': [
+        [83, None, None, '<V>', None, [-1, None, '<acc>'], (1, 'et<V>', None)]
+    ],
+
+
+    'meydan<N><dat>': [
+        [84, None, None, '<V>', None, (1, 'gel<V>', None)]
+    ],
+
+
+    'mezun<Adj>': [
+        [85, None, None, '<V>', None, [-1, None, '<abl>'], (1, 'ol<V>', None)]
+    ],
+
+
+    'ne<Prn:qst>': [
+        [86, None, None, '<Adv>', None, (1, 'zaman<N>', None)]
+    ],
+
+
+    'neden<N><p3s><ins>': [
+        [87, None, None, '<Adv>', None, (-1, None, '<V><vn:inf><N><p3s>')]
+    ],
+
+
+    'o<Prn:dem>': [
+        [88, None, None, '<Adv>', None, (1, 'zaman<N>', None)],
+        [187, None, None, '<Adv>', None, (1, 'yüz<N>', '<abl>')]
+    ],
+
+
+    'olanak<N>': [
+        [89, None, None, '<V>', None, [-1, None, '<dat>'], (1, 'sağla<V>', None)]
+    ],
+
+
+    'ol<V><cv:erek><Adv>': [
+        [90, None, None, '<Adv>', None, (-1, 'ücret<N>', '<siz><Adj>')],
+        [188, None, None, '<Adv>', None, (-1, 'genel<Adj>', None)],
+        [189, None, None, '<Adv>', None, (-1, 'doğal<Adj>', None)]
+    ],
+
+
+    'ol<V><neg><aor><cpl:cond><3s>': [
+        [91, None, None, '<Adj>', None, (1, 'ol<V>', '<neg><aor><3s>')]
+    ],
+
+
+    'ortak<N>': [
+        [92, None, None, '<V>', None, [-1, None, '<dat>'], (1, 'ol<V>', None)]
+    ],
+
+
+    'ödenek<N>': [
+        [93, None, None, '<N>', None, (-1, 'örtü<N>', '<li><Adj>')]
+    ],
+
+
+    'ödül<N>': [
+        [94, None, None, '<V>', None, (1, 'al<V>', None)],
+        [95, None, None, '<V>', None, [-1, None, '<dat>'], (1, 'ver<V>', None)]
+    ],
+
+
+    'önce<Adv>': [
+        [96, None, None, '<Adv>', None, (-1, 'daha<Adv>', None)],
+        [190, None, None, '<Adv>', None, (-1, 'biraz<Adv>', None)],
+        [191, None, None, '<Adv>', None, (-1, 'az<Adv>', None)]
+    ],
+
+
+    'önce<Postp:adv:ablC>': [
+        [97, None, None, '<Adv>', None, (-1, None, '<neg><cv:den>')],
+        [98, None, None, '<Adv>', None, (-1, None, '<abl>')],
+        [140, 98, None, '<Adv>', None, (-1, 'herşey<Prn>', '<abl>')],
+        [141, 98, None, '<Adv>', None, (-2, 'her<Det:def>', None), (-1, 'şey<N>', '<abl>')]
+    ],
+
+
+    'önce<Adv><ki><Adj>': [
+        [99, None, None, '<Adv>', None, (1, 'gün<N>', None)],
+        [192, None, None, '<Adv>', None, (1, 'hafta<N>', None)],
+        [193, None, None, '<Adv>', None, (1, 'ay<N>', None)],
+        [194, None, None, '<Adv>', None, (1, 'yıl<N>', None)],
+        [195, None, None, '<Adv>', None, (1, 'sene<N>', None)]
+    ],
+
+
+    'önlem<N>': [
+        [100, None, None, '<V>', None, (1, 'al<V>', None)]
+    ],
+
+
+    'paylaş<V>': [
+        [101, None, None, '<V>', None, (-1, None, '<acc>')]
+    ],
+
+
+    'peşe<Adv:partial>': [
+        [102, None, None, '<Adv>', None, (-1, 'peş<Adv:partial>', None)]
+    ],
+
+
+    'pek<Adv>': [
+        [103, None, None, '<Adj>', None, (1, 'çok<Adv>', None)]
+    ],
+
+
+    'püf<N>': [
+        [104, None, None, '<N>', None, (1, 'nokta<N>', '<p3')]
+    ],
+
+
+    'sayın<Adj>': [
+        [105, None, None, '<N>', None, (1, '[LastName]', None)]
+    ],
+
+
+    'sn<N:abbr>': [
+        [106, None, None, '<N>', None, (1, '[LastName]', None)]
+    ],
+
+
+    'suç<N>': [
+        [107, None, None, '<N>', None, (1, 'duyuru<N>', '<p3')]
+    ],
+
+
+    'sonra<Adv>': [
+        [108, None, None, '<Adv>', None, (-1, 'daha<Adv>', None)],
+        [196, None, None, '<Adv>', None, (-1, 'biraz<Adv>', None)],
+        [197, None, None, '<Adv>', None, (-1, 'az<Adv>', None)],
+    ],
+
+
+    'sonra<Postp:adv:ablC>': [
+        [109, 110, None, '<Adv>', None, (-1, None, '<part:past><Adj><abl>')],
+        [110, None, None, '<Adv>', None, (-1, None, '<abl>')]
+    ],
+
+
+    'söyle<V>':[
+        [149, None, None, '<V>', None, (-1, None, '<vn:past><N><p3s><acc>')],
+        [198, None, None, '<V>', None, (-1, None, '<vn:past><N><pl><p3s><acc>')],
+        [199, None, None, '<V>', None, (-1, None, '<vn:fut><N><p3s><acc>')],
+        [200, None, None, '<V>', None, (-1, None, '<vn:fut><N><pl><p3s><acc>')]
+    ],
+
+
+    'şehir<N>': [
+        [111, None, None, '<N>', None, (1, 'merkez<N>', '<p3')]
+    ],
+
+
+    'tek<Adj>': [
+        [112, None, None, '<Adv>', None, (1, 'baş<N>', '<p3s><dat>')],
+        [208, None, None, '<Adv>', None, (1, 'baş<N>', '<p1p><dat>')],
+        [209, None, None, '<Adv>', None, (1, 'baş<N>', '<p2p><dat>')],
+        [210, None, None, '<Adv>', None, (1, 'baş<N>', '<p3p><dat>')],
+        [207, None, None, '<Adv>', None, (1, 'baş<N>', '<p1s><dat>')]
+    ],
+
+
+    'tespit<N>': [
+        [113, None, None, '<V>', None, [-1, None, '<acc>'], (1, 'et<V>', None)]
+    ],
+
+
+    'tüm<Det:def>': [
+        [114, None, None, '<N>', None, (1, None, '<pl>')]
+    ],
+
+
+    'ulaşım<N>': [
+        [115, None, None, '<N>', None, (1, 'imkan<N>', '<p3')]
+    ],
+
+
+    'üst<N><dat>': [
+        [116, None, None, '<Adv>', None, (-1, 'üst<N>', None)]
+    ],
+
+
+    'üzere<Postp:adv:nomC>': [
+        [117, None, None, '<Adv>', None, (-2, 'baş<N>', '<loc>'), (-1, 'ol<V>', '<vn:inf><N>')],
+        [118, 119, None, '<Adv>', None, [-3, None, '<Cnj:coo:partial>'], (-2, 'dahil<N>', None), (-1, 'ol<V>', '<vn:inf><N>')],
+        [119, None, None, '<Adv>', None, (-1, None, '<V><vn:inf><N>')]
+    ],
+
+
+    'vakıf<N>': [
+        [120, None, None, '<V>', None, [-1, None, '<dat>'], (1, 'ol<V>', None)]
+    ],
+
+
+    'vurgu<N>': [
+        [121, None, None, '<V>', None, (1, 'yap<V>', None)]
+    ],
+
+
+    'ya<Cnj:coo:partial>': [
+        [122, None, None, '<?>', None, (1, 'da<Cnj:coo:partial>', None)]
+    ],
+
+
+    'yan<N><dat>': [
+        [123, None, None, '<Adv>', None, (-1, 'yan<N>', None)]
+    ],
+
+
+    'yan<N><p3s>': [
+        [124, None, None, '<Adv>', None, (1, 'sıra<N>', None)]
+    ],
+
+
+    'yatırım<N>': [
+        [125, None, None, '<V>', None, [-1, None, '<dat>'], (1, 'yap<V>', None)]
+    ],
+
+
+    'yayın<N>': [
+        [126, None, None, '<V>', None, (1, 'yap<V>', None)]
+    ],
+
+
+    'yer<N>': [
+        [127, None, None, '<Adv>', None, (1, 'yer<N>', None)]
+    ],
+
+
+    'yer<N><p3s><dat>': [
+        [128, None, None, '<V>', None, [-1, None, '<acc>'], (1, 'getir<V>', None)]
+    ],
+
+
+    'yine<Adv>': [
+        [129, None, None, '<Adv>', None, (1, 'de<Cnj:coo:partial>', None)]
+    ],
+
+
+    'yorum<N>': [
+        [130, None, None, '<V>', None, (1, 'yap<V>', None)]
+    ],
+
+
+    'yönelik<Postp:adv:datC>': [
+        [131, None, None, '<Adj>', None, (-1, None, '<dat>')]
+    ],
+
+
+    '[Month]': [
+        [132, None, None, '[Date]', None, [-1, '[DayOfMonth]', None], [1, '[Year]', None]]
+    ],
+
+
+    '[Time]': [
+        [133, None, None, '[Duration]', None, (-1, '[Integer]', None)]
+    ],
+
+
+    '[LastName]': [
+        [134, None, None, '[PersonName]', None, (-1, '[FirstName]', None)]
+    ],
+
+
+    '[LargeNumber]': [
+        [135, None, None, '[LargeInteger]', None, (-1, '[Integer]', None)]
+    ],
+
+
+    '[Ordinal]': [
+        [136, None, None, '<N>', None, (1, 'sınıf<N>', None)],
+        [137, None, None, '<N>', None, (1, 'mevki<N>', None)],
+        [201, None, None, '<N>', None, (1, 'madde<N>', None)],
+        [202, None, None, '<N>', None, (1, 'hafta<N>', None)],
+        [203, None, None, '<N>', None, (1, 'sayfa<N>', None)],
+        [204, None, None, '<N>', None, (1, 'dönem<N>', None)],
+        [205, None, None, '<V>', None, (1, 'ol<V>', None)],
+        [211, None, None, '<V>', None, (1, 'kez<Postp:adv:numC>', None)],
+		[212, None, None, '<V>', None, (1, 'kere<Postp:adv:numC>', None)],
+		[213, None, None, '<V>', None, (1, 'defa<Postp:adv:numC>', None)],
+        
+    ],
+
+
+    '[Currency]': [
+        [151, None, None, '[AmountOfMoney]', None, (-1, '[Integer]', None)],
+        [206, None, None, '[AmountOfMoney]', None, (-1, '[LargeInteger]', None)]
+    ],
+
+
+    '[AmountOfMoney]': [
+        [148, None, None, '<V>', None, (1, 'harca<V>', None)]
+    ]
+}
