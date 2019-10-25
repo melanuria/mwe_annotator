@@ -1,4 +1,4 @@
-# mwe_identifier
+# Multiword expression (MWE) identifier for Turkish
 
 This is a proof-of-concept version of a multiword-expression identifier for Turkish, designed within a "Construction Grammar" framework. For an early description of Construction Grammar, see Fried, M., & Östman, J. O. (2004). Construction Grammar: A thumbnail sketch. Construction Grammar in a cross-language perspective, 11-86.
 
